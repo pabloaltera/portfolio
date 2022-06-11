@@ -8,7 +8,7 @@ body{
 }
 
 .puesto{
-  letter-spacing: 5px;
+  letter-spacing:normal;
 }
 .bg-negro{
   background-color: rgb(5,5,5);
