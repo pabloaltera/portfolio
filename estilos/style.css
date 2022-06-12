@@ -7,9 +7,7 @@ body{
   background-color: rgb(5,5,5);
 }
 
-.contactos{
-  color: silver;
-}
+
 .puesto{
   letter-spacing:normal;
 }
@@ -30,7 +28,7 @@ body{
 }
 
 .text-plata{
-  color: silver;
+  color:silver;
 }
 
 .bg-gold{
