@@ -7,6 +7,9 @@ body{
   background-color: rgb(5,5,5);
 }
 
+.contactos{
+  color: silver;
+}
 .puesto{
   letter-spacing:normal;
 }
@@ -32,4 +35,11 @@ body{
 
 .bg-gold{
   background-color: rgb(146,126,121);
+}
+
+.logo{
+  zoom:100%;
+}
+.logo:hover{
+  transform: scale(1.2);
 }
