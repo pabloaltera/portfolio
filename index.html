@@ -1,603 +1,1702 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" data-theme="dark">
 
 <head>
   <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Pablo Martín Altera  - Project Manager - Arquitecto Funcional JDE - Desarrollador Web - portfolio personal - Curriculum Online">
+  <title>Pablo Martín Altera | Tech Leader en Globant · Project Manager &amp; Consultor JD Edwards</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Pablo Martín Altera: Tech Leader en Globant, Project Manager y Arquitecto Funcional JD Edwards EnterpriseOne. +20 años liderando transformaciones digitales y proyectos ERP en LATAM." />
   <meta name="keywords"
-    content="PABLO, MARTIN, ALTERA, PORTFOLIO, ONLINE, CURRICULUM, INFORMATICA, SERVICIOS, JDE, CONSULTORIA, CONSULTOR, DESARROLLO, ANALISIS, ARQUITECTO, PROJECT, MANAGER">
-  <link rel="shortcut icon" href="./img/favicon.png" />
-  <script src="https://kit.fontawesome.com/09f79d40f1.js" crossorigin="anonymous"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    content="Pablo Altera, Pablo Martin Altera, Tech Leader, Globant, JD Edwards, Oracle JDE, EnterpriseOne, Project Manager, Scrum Master, ERP LATAM, Consultor Funcional, OCI, Supply Chain, Mastellone, Arquitecto ERP" />
+  <meta name="author" content="Pablo Martín Altera" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <link rel="canonical" href="./" />
+
+  <!-- Geotargeting & Local SEO (Argentina / LATAM) -->
+  <meta name="geo.region" content="AR-B" />
+  <meta name="geo.placename" content="Buenos Aires, Argentina" />
+  <meta name="geo.position" content="-34.6037;-58.3816" />
+  <meta name="ICBM" content="-34.6037, -58.3816" />
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="profile" />
+  <meta property="og:url" content="https://www.linkedin.com/in/pablo-altera/" />
+  <meta property="og:site_name" content="Pablo Martín Altera" />
+  <meta property="og:locale" content="es_AR" />
+  <meta property="profile:first_name" content="Pablo" />
+  <meta property="profile:last_name" content="Altera" />
+  <meta property="profile:username" content="pablo-altera" />
+  <meta property="og:title" content="Pablo Martín Altera · Tech Leader en Globant &amp; Consultor Senior JD Edwards" />
+  <meta property="og:description"
+    content="+20 años de experiencia liderando proyectos de implementación ERP, arquitectura funcional y transformación digital en Argentina, Chile y Paraguay." />
+  <meta property="og:image" content="./img/pablo.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="600" />
+  <meta property="og:image:height" content="600" />
+  <meta property="og:image:alt" content="Foto profesional de Pablo Martín Altera - Tech Leader en Globant" />
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Pablo Martín Altera | Tech Leader en Globant · Project Manager &amp; Consultor JD Edwards" />
+  <meta name="twitter:description"
+    content="+20 años de experiencia liderando transformaciones ERP de alta complejidad en JD Edwards EnterpriseOne en LATAM." />
+  <meta name="twitter:image" content="./img/pablo.jpg" />
+  <meta name="twitter:image:alt" content="Pablo Martín Altera - Tech Leader en Globant" />
+
+  <!-- Preload Critical LCP Image -->
+  <link rel="preload" as="image" href="./img/pablo.jpg" fetchpriority="high" />
+
+  <!-- Favicon & Touch Icons -->
+  <link rel="icon" type="image/svg+xml" href="./img/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="64x64" href="./img/favicon.png" />
+  <link rel="apple-touch-icon" href="./img/favicon.png" />
+
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit (Preconnect & Swap) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <!-- Security Headers: CSP, Referrer & Permissions Policy -->
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://pagead2.googlesyndication.com https://adservice.google.com; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https:; connect-src 'self' https://pagead2.googlesyndication.com; frame-src https://googleads.g.doubleclick.net; object-src 'none'; base-uri 'self';" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=()" />
+
+  <!-- Font Awesome Icons (with Subresource Integrity SRI) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap 5.3.3 CSS (with SRI) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+  <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="./estilos/style.css" />
+
+  <!-- Google AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2694419002885604"
     crossorigin="anonymous"></script>
-  <title>Pablo Martin Altera</title>
+
+  <!-- Structured Data / JSON-LD (Schema.org) for Search Engines & Google Knowledge Graph -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ProfilePage",
+        "@id": "https://www.linkedin.com/in/pablo-altera/#profile",
+        "url": "https://www.linkedin.com/in/pablo-altera/",
+        "name": "Pablo Martín Altera - Perfil Profesional & Portfolio",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Pablo Martín Altera",
+          "url": "https://www.linkedin.com/in/pablo-altera/"
+        },
+        "mainEntity": {
+          "@type": "Person",
+          "@id": "https://www.linkedin.com/in/pablo-altera/#person",
+          "name": "Pablo Martín Altera",
+          "alternateName": "Pablo Altera",
+          "jobTitle": "Tech Leader · Oracle Functional Sr level 3",
+          "description": "Tech Leader en Globant, Project Manager y Arquitecto Funcional JD Edwards EnterpriseOne con más de 20 años de experiencia liderando proyectos ERP, implementaciones y migraciones en LATAM.",
+          "image": "./img/pablo.jpg",
+          "nationality": "Argentine",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Buenos Aires",
+            "addressCountry": "AR"
+          },
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Globant",
+            "url": "https://www.globant.com/"
+          },
+          "alumniOf": [
+            {
+              "@type": "EducationalOrganization",
+              "name": "Universidad de Buenos Aires (UBA)"
+            },
+            {
+              "@type": "EducationalOrganization",
+              "name": "Universidad Nacional de Avellaneda (UNDAV)"
+            },
+            {
+              "@type": "EducationalOrganization",
+              "name": "Universidad Tecnológica Nacional (UTN)"
+            },
+            {
+              "@type": "EducationalOrganization",
+              "name": "Coderhouse"
+            }
+          ],
+          "hasCredential": [
+            {
+              "@type": "EducationalOccupationalCredential",
+              "name": "FIRST Certificate of English (FCE)",
+              "recognizedBy": {
+                "@type": "Organization",
+                "name": "University of Cambridge"
+              }
+            },
+            {
+              "@type": "EducationalOccupationalCredential",
+              "name": "Scrum Foundation Professional Certificate (SFPC)",
+              "recognizedBy": {
+                "@type": "Organization",
+                "name": "CertiProf"
+              }
+            },
+            {
+              "@type": "EducationalOccupationalCredential",
+              "name": "AI Fluency Framework & Foundations"
+            },
+            {
+              "@type": "EducationalOccupationalCredential",
+              "name": "AI Agents Fundamentals"
+            }
+          ],
+          "knowsAbout": [
+            "JD Edwards EnterpriseOne",
+            "Oracle Cloud Infrastructure (OCI)",
+            "Oracle ERP",
+            "Project Management",
+            "Scrum",
+            "Agile Methodologies",
+            "Supply Chain Management",
+            "Manufacturing ERP",
+            "Artificial Intelligence Agents",
+            "Digital Transformation"
+          ],
+          "sameAs": [
+            "https://www.linkedin.com/in/pablo-altera/"
+          ]
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 
 <body>
-  <div class="container-fluid">
-    <header class="bg-negro containter-fluid">
-      <div class="cabeza">
-        <div class="container-fluid">
-          <div class="row d-flex justify-content-start m-2">
-            <div class="col-3 foto">
-              <img class="img-fluid rounded-circle" src="./img/pablo.jpg" alt="Foto de perfil">
-            </div>
-            <div class="col-8 d-flex flex-column justify-content-end align-items-center network">
-              <img class="img-fluid" src="./img/network.jpg" alt="network">
-              <h1 class="text-plata">PABLO MARTIN ALTERA</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-    <main>
-       <div class="bg-cremita  ">
-        <div class="container-fluid bg-cremita">
-          <div class="row border-top border-warning">
-            <div class="col  bg-cremita">
-              <h2 class="fs-4 puesto">PROJECT MANAGER</h2>
-            </div>
-            <div class="col bg-cremita">
-              <h2 class="fs-4 puesto">CONSULTOR JD EDWARDS</h2>
-            </div>
-            <div class="col bg-cremita">
-              <h2 class="fs-4 puesto">DESARROLLADOR WEB </h2>
-            </div>
-          </div>
-        </div>
-        <div class="container-fluid">
-          <div class="row border-top border-warning">
-            <div class="col">
-              <h3 class="text-negro text-center">CONTACTO</h3>
-              <p class="fs-6 contactos"><i class="fa-solid fa-phone contactos fs-6"> </i>&nbsp; + 54 9 11 6012 7001</p>
-              <p><a class="text-negro contactos list-group-item list-group-item-action"
-                href="mailto:pabloaltera@gmail.com"><i class="fa-solid fa-at contactos fs-6"></i>&nbsp; Enviar Mail
-              </a></p>
-              <p class="fs-6 contactos"><i class="fa-solid fa-envelope"></i> &nbsp; Buenos Aires - Argentina</p>
-            </div>
-            <div class="col-8 bg-cremita">
-              <h3>PERFIL</h3>
-              <p class="fs-5">Responsable, proactivo y de actitud positiva.
-                Me gusta capacitarme continuamente en lo que hago y aceptar nuevos desafios. Dispuesto a trabajar bajo
-                presión, con capacidad y experiencia en liderazgo de equipos.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="container-fluid">
-          <div class="row border-top border-warning">
-            <div class="col">
-              <h3 class="text-negro text-center">HABILIDADES</h3>
-              <p class="fs-6 contactos"><i class="fa-solid fa-star contactos fs-6"> </i>&nbsp; PROJECT MANAGER</p>
-              <p class="fs-6 contactos"><i class="fa-solid fa-star contactos fs-6"> </i>&nbsp; CONSULTORIA JDE</p>
-              <p class="fs-6 contactos"><i class="fa-solid fa-star contactos fs-6"> </i>&nbsp; TRAINING JDE</p>
-              <p class="fs-6 contactos"><i class="fa-solid fa-star contactos fs-6"> </i>&nbsp; DESARROLLO WEB</p>
-            </div>
-            <div class="col-8 bg-cremita">
-              <h3>FORMACION ACADEMICA</h3>
-              <p class="fs-5">
-                2003-2006 <br>
-                Título: Bachiller con orientación en Ciencias Naturales y exactas.<br>
-                Instituto Norland de Lanus (Argentina)
-              </p>
-              <p class="fs-5">
-                2007 - No concluido <br>
-                Título: Ingeniería en sistemas de la Información<br>
-                Universidad Tecnológica Nacional (Argentina)
-              </p>
-              <p class="fs-5">
-                2016 <br>
-                Título: Diplomatura en Administración de Proyectos (PMI)<br>
-                Universidad de Buenos Aires (Argentina)
-              </p>
-              <p class="fs-5">
-                2022 <br>
-                Título: Desarrollo web<br>
-                CODERHOUSE
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="container-fluid">
-          <div class="row border-top border-warning">
-            <div class="col ">
-              <h3 class="text-negro text-center">IDIOMAS</h3>
-              <p class="fs-6 contactos"><i class="fa-solid fa-earth-americas contactos fs-6"></i> &nbsp; Español</p>
-              <p class="fs-6 contactos"> <i class="fa-solid fa-earth-americas contactos fs-6"></i> &nbsp; Ingles</p>
-            </div>
-            <div class="col-8 bg-cremita">
-              <h3>CAPACITACIONES</h3>
-              <p class="fs-5 "><i class="fa-solid fa-book-atlas  fs-6"></i> &nbsp; Gestión de Proyectos (Diplomatura PMI -
-                UBA)</p>
-              <p class="fs-5 "> <i class="fa-solid fa-book-atlas  fs-6"></i> &nbsp; Scrum Foundation Professional
-                Certificate (SFPC - CertiProf)</p>
-              <p class="fs-5 "><i class="fa-solid fa-book-atlas  fs-6"></i> &nbsp; Gestión de ventas (SOM)</p>
-              <p class="fs-5 "> <i class="fa-solid fa-book-atlas  fs-6"></i> &nbsp; Gestion de compras (PUR)</p>
-              <p class="fs-5 "><i class="fa-solid fa-book-atlas  fs-6"></i> &nbsp; Gestión de Inventarios (IM)</p>
-              <p class="fs-5 "> <i class="fa-solid fa-book-atlas  fs-6"></i> &nbsp; Gestión de Producción (MFG)</p>
-              <p class="fs-5 "> <i class="fa-solid fa-book-atlas  fs-6"></i> &nbsp; Gestion de Planificación de la
-                producción (MPS)</p>
-              <p class="fs-5 ">
-                <i class="fa-solid fa-book-atlas  fs-6"></i> &nbsp; Gestión de Planificación de Recursos
-                (MRP)
-              </p>
-              <p class="fs-5 "> <i class="fa-solid fa-book-atlas  fs-6"></i> &nbsp; Gestión del Transporte (TMS)</p>
-            </div>
-          </div>
-        </div>
-        <div class="container-fluid border-top border-warning">
-          <h3>EXPERIENCIA</h3>
-          <div class="accordion accordion-flush container-fluid bg-cremita" id="accordionFlush">
-            <div class="accordion-item bg-cremita">
-                <button class="accordion-button collapsed bg-cremita" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                <div class="container-fluid">
-                  <div class="row">
-                    <div class="col d-flex justify-content-center">
-                      <h3>COMO PROJECT MANAGER</h3>
-                    </div>
-                  </div>
-                </div>
-                </button>
-              <div id="flush-collapseFour" class="accordion-collapse collapse bg-cremita" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                  <div class="container-fluid">
-                    <div class="row ">
-                      <div class="col-4">
-                        <h4 class="text-negro text-center">AÑO / PERIODO</h4>
-                      </div>
-                      <div class="col-8 bg-cremita">
-                        <h4>DESCRIPCIÓN</h4>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="container-fluid">
-                    <div class="row">
-                      <div class="col-4">
-                        <h3 class="text-negro  "><i class="fa-brands fa-empire"></i>&nbsp; 2022</h3>
-                      </div>
-                      <div class="col bg-cremita">
-                        <p class="fs-5">
-                          Nombre del cliente: Essity S.A <br>
-                          Ubicación: Chile <br>
-                          Título: Project Manager <br>
-                          Módulos: Tecnología <br>
-                          Migración tecnológica a nuevos servidores y actualización en simultaneo de Tool Release 9.2.4.6 <br>
-                          Duración de proyecto: 9 meses
-                        </p>
-                      </div>
-                      <div class="col-2 bg-cremita">
-                        <img class="logo img-fluid" src="./img/essity.png" alt="Logo Essity">
-                      </div>
-                    </div>
-                </div>
-                <div class="container-fluid">
-                  <div class="row">
-                  <div class="col-4">
-                    <h3 class="text-negro  "><i class="fa-brands fa-empire"></i>&nbsp; 2022</h3>
-                  </div>
-                  <div class="col bg-cremita">
-                    <p class="fs-5">
-                      Nombre del cliente: BGH S.A <br>
-                      Ubicación: Argentina <br>
-                      Título: Project Manager <br>
-                      Módulos: Tecnología <br>
-                      Migración de OCI a On-Premise y downgrade de ambientes <br>
-                      Duración de proyecto: 1 mes
-                    </p>
-                  </div>
-                  <div class="col-2 bg-cremita">
-                    <img class="logo img-fluid" src="./img/bgh.png" alt="Logo BGH">
-                  </div>
-                  </div>
-                </div>
-                <div class="container-fluid">
-                  <div class="row">
-                  <div class="col-4">
-                    <h3 class="text-negro  "><i class="fa-brands fa-empire"></i>&nbsp; 2022</h3>
-                  </div>
-                  <div class="col bg-cremita">
-                    <p class="fs-5">
-                      Nombre del cliente: Copeval <br>
-                      Ubicación: Chile <br>
-                      Título: Project Manager <br>
-                      Módulos: Tecnología <br>
-                      Estabilización de entornos webs <br>
-                      Duración de proyecto: 1 mes
-                    </p>
-                  </div>
-                  <div class="col-2 bg-cremita">
-                    <img class="logo img-fluid" src="./img/copeval.png" alt="Logo Copeval">
-                  </div>
-                  </div>
-                </div>
-                <div class="container-fluid">
-                  <div class="row">
-                    <div class="col-4">
-                      <h3 class="text-negro  "><i class="fa-brands fa-empire"></i>&nbsp; 2022</h3>
-                    </div>
-                    <div class="col bg-cremita">
-                      <p class="fs-5">
-                        Nombre del cliente: Copeval <br>
-                        Ubicación: Chile <br>
-                        Título: Project Manager <br>
-                        Módulos: Tecnología <br>
-                        Integración de JDE con terminal POS bancaria <br>
-                        Duración de proyecto: 3 meses
-                      </p>
-                    </div>
-                    <div class="col-2 bg-cremita">
-                      <img class="logo img-fluid" src="./img/copeval.png" alt="Logo Copeval">
-                    </div>
-                  </div>
-                </div>
-                <div class="container-fluid">
-                  <div class="row">
-                  <div class="col-4">
-                    <h3 class="text-negro  "><i class="fa-brands fa-empire"></i>&nbsp; 2021</h3>
-                  </div>
-                  <div class="col bg-cremita">
-                    <p class="fs-5">
-                      Nombre del cliente: Pilkington Automotive <br>
-                      Ubicación: Argentina <br>
-                      Título: Project Manager y Arquitecto Funcional <br>
-                      Módulos: Facturación <br>
-                      Implementación de Facturación por BI Publisher con código QR solicitado por AFIP. <br>
-                      Duración de proyecto: 3 meses
-                    </p>
-                  </div>
-                  <div class="col-2 bg-cremita">
-                    <img class="logo img-fluid" src="./img/pilkington.png" alt="Logo Copeval">
-                  </div>
-                  </div>
-                </div>
-                <div class="container-fluid">
-                  <div class="row">
-                  <div class="col-4">
-                    <h3 class="text-negro  "><i class="fa-brands fa-empire"></i>&nbsp; 2017-2018</h3>
-                  </div>
-                  <div class="col bg-cremita">
-                    <p class="fs-5">
-                      Nombre del cliente: Grupo Peñaflor S.A <br>
-                      Ubicación: Argentina <br>
-                      Título: Project Manager y Arquitecto Funcional <br>
-                      Módulos: Inventarios, Compras, Ventas, Transporte <br>
-                      Implementación  de proyectos ágiles de mejoras evolutivas de procesos.
-                    </p>
-                  </div>
-                  <div class="col-2 bg-cremita">
-                    <img class="logo img-fluid" src="./img/pena.png" alt="Logo Peñaflor">
-                  </div>
-                  </div>
-                </div>
-                </div>
-            </div>
-            <div class="accordion-item bg-cremita">
-              <button class="accordion-button collapsed bg-cremita" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col d-flex justify-content-center">
-                    <h3>COMO CONSULTOR FUNCIONAL</h3>
-                  </div>
-                </div>
-              </div>
-              </button>
-            <div id="flush-collapseFive" class="accordion-collapse collapse bg-cremita" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                <div class="container-fluid">
-                  <div class="row">
-                  <div class="col-4">
-                    <h4 class="text-negro text-center">AÑO / PERIODO</h4>
-                  </div>
-                  <div class="col-8 bg-cremita">
-                    <h4>DESCRIPCIÓN</h4>
-                  </div>
-                  </div>
-                </div>
-                <div class="container-fluid">
-                  <div class="row">
-                  <div class="col-4">
-                    <h3 class="text-negro  "><i class="fa-brands fa-empire"></i>&nbsp; 2020-2021</h3>
-                  </div>
-                  <div class="col bg-cremita">
-                    <p class="fs-5">
-                      Nombre del cliente: Grupo Peñaflor S.A <br>
-                      Ubicación: Argentina <br>
-                      Título: Consultor Funcional <br>
-                      Módulos: Inventarios, Ventas, Facturación, localización Argentina, Manufacturas, EDIs/Interfaces.Inventarios, Ventas, Transporte <br>
-                      Soporte en problemas surgidos de la operatoria diaria en JD Edwards 9.0
-                    </p>
-                  </div>
-                  <div class="col-2 bg-cremita">
-                    <img class="logo img-fluid" src="./img/pena.png" alt="Logo Peñaflor">
-                  </div>
-                  </div>
-                </div>
-                <div class="container-fluid">
-                  <div class="row">
-                  <div class="col-4">
-                    <h3 class="text-negro  "><i class="fa-brands fa-empire"></i>&nbsp; 2020</h3>
-                  </div>
-                  <div class="col bg-cremita">
-                    <p class="fs-5">
-                      Nombre del cliente: Qbit S.A <br>
-                      Ubicación: LATAM  <br>
-                      Título: Consultor Funcional - Secto Managed Services <br>
-                      Módulos:  Inventarios, Compras, Ventas, Facturación electrónica, localización Argentina, Manufacturas, Importaciones, EDIs/Interfaces, Mantenimiento. <br>
-                      Soporte en problemas surgidos de la operatoria diaria en diferentes clientes de LATAM.
-                    </p>
-                  </div>
-                  <div class="col-2 bg-cremita">
-                    <img class="logo img-fluid" src="./img/qbit.png" alt="Logo Qbit">
-                  </div>
-                  </div>
-                </div>
-                <div class="container-fluid">
-                  <div class="row">
-                  <div class="col-4">
-                    <h3 class="text-negro  "><i class="fa-brands fa-empire"></i>&nbsp; 2018-2020</h3>
-                  </div>
-                  <div class="col bg-cremita">
-                    <p class="fs-5">
-                      Nombre del cliente: BGH S.A <br>
-                      Ubicación: Argentina  <br>
-                      Título: Consultor Funcional - Sector Managed Services <br>
-                      Módulos:  Inventarios, Compras, Ventas, Facturación electrónica, localización Argentina, Manufacturas, Importaciones, EDIs/Interfaces. <br>
-                      Liderazgo e implementación de proyectos ágiles de mejoras evolutivas de procesos. <br>
-                      Soporte en problemas surgidos de la operatoria diaria en JD Edwards 9.2 y 9.1. <br>
-                      Migración de JDE On Premise a Oracle Cloud Infraestructure.
-                    </p>
-                  </div>
-                  <div class="col-2 bg-cremita">
-                    <img class="logo img-fluid" src="./img/bgh.png" alt="Logo BGH">
-                  </div>
-                  </div>
-                </div>
-                <div class="container-fluid">
-                  <div class="row">
-                  <div class="col-4">
-                    <h3 class="text-negro  "><i class="fa-brands fa-empire"></i>&nbsp; 2019</h3>
-                  </div>
-                  <div class="col bg-cremita">
-                    <p class="fs-5">
-                      Nombre del cliente: Pretrocuyo S.A <br>
-                      Ubicación: Argentina  <br>
-                      Título: Implementación de mejora OVI ARBA COT para generación automática de nro de inscripción de Nota de Remisión en organismo contralor y recepción de respuesta en JDE.
-                    </p>
-                  </div>
-                  <div class="col-2 bg-cremita">
-                    <img class="logo img-fluid" src="./img/petrocuyo.png" alt="Logo Petrocuyo">
-                  </div>
-                  </div>
-                </div>
-                <div class="container-fluid">
-                  <div class="row">
-                  <div class="col-4">
-                    <h3 class="text-negro  "><i class="fa-brands fa-empire"></i>&nbsp; 2018</h3>
-                  </div>
-                  <div class="col bg-cremita">
-                    <p class="fs-5">
-                      Nombre del cliente: Sierra Gorda SCM <br>
-                      Ubicación: Chile  <br>
-                      Título: Help Desk lvl 2 <br>
-                      Módulos: Inventarios, Compras, Ventas, Mantenimiento, Planificación, Finanzas.
-                    </p>
-                  </div>
-                  <div class="col-2 bg-cremita">
-                    <img class="logo img-fluid" src="./img/sierraGorda.png" alt="Logo Sierra Gorda">
-                  </div>
-                  </div>
-                </div>
-                <div class="container-fluid">
-                  <div class="row">
-                  <div class="col-4">
-                    <h3 class="text-negro  "><i class="fa-brands fa-empire"></i>&nbsp; 2017</h3>
-                  </div>
-                  <div class="col bg-cremita">
-                    <p class="fs-5">
-                      Nombre del cliente: Ghella S.A <br>
-                      Ubicación: Argentina  <br>
-                      Título: Rollout de JDEdwards Enterprise One 9.0 para Consorcio Nuevo Sarmiento UTE <br>
-                      Módulos: Inventarios, Compras, Ventas.
-                    </p>
-                  </div>
-                  <div class="col-2 bg-cremita">
-                    <img class="logo img-fluid" src="./img/ghella.png" alt="Logo Ghella">
-                  </div>
-                  </div>
-                </div>
-                <div class="container-fluid">
-                  <div class="row">
-                  <div class="col-4">
-                    <h3 class="text-negro  "><i class="fa-brands fa-empire"></i>&nbsp; 2017</h3>
-                  </div>
-                  <div class="col bg-cremita">
-                    <p class="fs-5">
-                      Nombre del cliente: Drogueria Argentina S.A <br>
-                      Ubicación: Argentina  <br>
-                      Título: Mejoras de procesos JDEdwards EnterpriseOne 9.1.5 <br>
-                      Módulos: Inventarios, Compras, Ventas.
-                    </p>
-                  </div>
-                  <div class="col-2 bg-cremita">
-                    <img class="logo img-fluid" src="./img/drogueria.png" alt="Logo Drogueria Argentina">
-                  </div>
-                  </div>
-                </div>
-                <div class="container-fluid">
-                  <div class="row">
-                  <div class="col-4">
-                    <h3 class="text-negro  "><i class="fa-brands fa-empire"></i>&nbsp; 2017</h3>
-                  </div>
-                  <div class="col bg-cremita">
-                    <p class="fs-5">
-                      Nombre del cliente: Sancor<br>
-                      Ubicación: Argentina  <br>
-                      Título: Mejoras de procesos JDEdwards EnterpriseOne 9.0 <br>
-                      Módulos: Precios Avanzados.
-                    </p>
-                  </div>
-                  <div class="col-2 bg-cremita">
-                    <img class="logo img-fluid" src="./img/sancor.png" alt="Logo Sancor">
-                  </div>
-                  </div>
-                </div>
-                <div class="container-fluid">
-                  <div class="row">
-                  <div class="col-4">
-                    <h3 class="text-negro  "><i class="fa-brands fa-empire"></i>&nbsp; 2017</h3>
-                  </div>
-                  <div class="col bg-cremita">
-                    <p class="fs-5">
-                      Nombre del cliente: Pilkington Automotive S.A<br>
-                      Ubicación: Argentina  <br>
-                      Título: Proyecto de migración J D Edwards EnterpriseOne 8.10 a  9.1.5 <br>
-                      Módulos: Inventarios, Compras, Manufacturas, Ventas
-                    </p>
-                  </div>
-                  <div class="col-2 bg-cremita">
-                    <img class="logo img-fluid" src="./img/pilkington.png" alt="Logo Pilkington">
-                  </div>
-                  </div>
-                </div>
-                <div class="container-fluid">
-                  <div class="row">
-                  <div class="col-4">
-                    <h3 class="text-negro  "><i class="fa-brands fa-empire"></i>&nbsp; 2015-2017</h3>
-                  </div>
-                  <div class="col bg-cremita">
-                    <p class="fs-5">
-                      Nombre del cliente: Grupo REIMPEX<br>
-                      Ubicación: Paraguay  <br>
-                      Título: Implementación de JD Edwards EnterpriseOne 9.1.5 <br>
-                      Módulos: Ventas, Inventarios, Adaptación de localizaciones a la reglamentación Paraguaya
-                    </p>
-                  </div>
-                  <div class="col-2 bg-cremita">
-                    <img class="logo img-fluid" src="./img/reimpex.png" alt="Logo Reimpex">
-                  </div>
-                  </div>
-                </div>
-                <div class="container-fluid">
-                  <div class="row">
-                  <div class="col-4">
-                    <h3 class="text-negro  "><i class="fa-brands fa-empire"></i>&nbsp; 2015</h3>
-                  </div>
-                  <div class="col bg-cremita">
-                    <p class="fs-5">
-                      Nombre del cliente: Laboratorios CASASCO<br>
-                      Ubicación: Argentina  <br>
-                      Título: JD Edwards EnterpriseOne 8.12 Relevamiento de procesos de fabricación – diseño de solución. <br>
-                      Módulos: Manufacturas
-                    </p>
-                  </div>
-                  <div class="col-2 bg-cremita">
-                    <img class="logo img-fluid" src="./img/casasco.png" alt="Logo Casasco">
-                  </div>
-                  </div>
-                </div>
-                <div class="container-fluid">
-                  <div class="row">
-                  <div class="col-4">
-                    <h3 class="text-negro  "><i class="fa-brands fa-empire"></i>&nbsp; 2015</h3>
-                  </div>
-                  <div class="col bg-cremita">
-                    <p class="fs-5">
-                      Nombre del cliente: Inversiones Alsacia SA / Express de Santiago SA<br>
-                      Ubicación: Chile  <br>
-                      Título: D Edwards EnterpriseOne 9.0 Mejoras de procesos y actualización de la versión de la herramienta – Capacitaciones <br>
-                      Liderazgo e implementación de proyectos ágiles de mejoras evolutivas de procesos. <br>
-                      Módulos: Inventarios, Compras, Ventas, Localización Chilena y Manufacturas.
-                    </p>
-                  </div>
-                  <div class="col-2 bg-cremita">
-                    <img class="logo img-fluid" src="./img/alsacia.png" alt="Logo Alsacia">
-                  </div>
-                  </div>
-                </div>
-                <div class="container-fluid">
-                  <div class="row">
-                  <div class="col-4">
-                    <h3 class="text-negro  "><i class="fa-brands fa-empire"></i>&nbsp; 2014</h3>
-                  </div>
-                  <div class="col bg-cremita">
-                    <p class="fs-5">
-                      Nombre del cliente: ILVA S.A<br>
-                      Ubicación: Argentina  <br>
-                      Título: JD Edwards EnterpriseOne 8.12 a 9.10 Proyecto de migración. - Implementación de mejoras y posterior Mesa de ayuda
-                      Módulos: Inventarios, Compras, Manufacturas <br>
-                    </p>
-                  </div>
-                  <div class="col-2 bg-cremita">
-                    <img class="logo img-fluid" src="./img/ilva.png" alt="Logo ILVA">
-                  </div>
-                  </div>
-                </div>
-                <div class="container-fluid">
-                  <div class="row">
-                  <div class="col-4">
-                    <h3 class="text-negro  "><i class="fa-brands fa-empire"></i>&nbsp; 2012-2015</h3>
-                  </div>
-                  <div class="col bg-cremita">
-                    <p class="fs-5">
-                      Nombre del cliente: Qbit S.A<br>
-                      Ubicación: Argentina  <br>
-                      Título: Help Desk JD Edwards versiones 8.11 / 8.12 / 9.0 / 9.1  <br>
-                      Módulos: Inventarios, Compras, Ventas, Manufacturas, Configurador <br>
-                    </p>
-                  </div>
-                  <div class="col-2 bg-cremita">
-                    <img class="logo img-fluid" src="./img/qbit.png" alt="Logo Qbit">
-                  </div>
-                  </div>
-              </div>
-            </div>
-          </div>
+  <!-- ACCESSIBILITY SKIP LINK -->
+  <a href="#inicio" class="skip-to-content">Saltar al contenido principal</a>
 
-                </div>
-            </div>
-
-          
-          
-          
-          </div>
-        </div>
-
-
-
-
-      </div>
-
-    </main>
-    <footer>
-      <div class="container p-3">
-        <div class="row  d-flex flex-row justify-content-center">
-          <div class="col">
-            <div class="copyRight fs-10">
-              <p class="text-plata">
-                © Copyright 2022 <a class="text-danger" href="https://www.alterait.com.ar">AlteraIT Solutions </a><br />
-                Todos los derechos reservados, prohibida su reproducción con fines
-                comerciales.
-              </p>
-            </div>
-          </div>
-          <div class="col">
-            <p class="text-negro">Publicidad</p>
-          </div>
-        </div>
-
-
-      </div>
-    </footer>
+  <!-- AMBIENT BACKGROUND GLOW -->
+  <div class="ambient-glow" aria-hidden="true">
+    <div class="ambient-orb orb-1"></div>
+    <div class="ambient-orb orb-2"></div>
+    <div class="ambient-orb orb-3"></div>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous"></script>
 
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container">
+      <a class="brand-badge" href="#inicio" aria-label="Ir al inicio">
+        <img src="./img/pablo.jpg" alt="Foto de perfil de Pablo Altera" class="brand-avatar" width="40" height="40" loading="eager" decoding="async" />
+        <div class="brand-info">
+          <span class="brand-name">Pablo Altera</span>
+          <span class="brand-status">
+            <span class="status-dot"></span> Tech Leader @ Globant
+          </span>
+        </div>
+      </a>
+
+      <!-- Mobile Hamburger Toggler -->
+      <button class="navbar-toggler border-0 shadow-none text-light" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Abrir menú de navegación">
+        <i class="fa-solid fa-bars-staggered fs-4" style="color: var(--accent-primary);"></i>
+      </button>
+
+      <!-- Nav Links & Actions -->
+      <div class="collapse navbar-collapse" id="navbarMain">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 align-items-lg-center gap-1">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+          <li class="nav-item"><a class="nav-link" href="#destacado">Caso Destacado</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
+          <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#formacion">Formación</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <!-- Theme Switcher -->
+          <button id="themeToggleBtn" class="btn-theme-toggle" type="button" aria-label="Cambiar tema de color"
+            title="Cambiar a modo claro">
+            <i id="themeIcon" class="fa-solid fa-sun"></i>
+          </button>
+
+          <!-- Social Shortcuts -->
+          <a href="https://www.linkedin.com/in/pablo-altera/" target="_blank" rel="noopener noreferrer"
+            class="nav-icon-link" aria-label="Perfil de LinkedIn" title="LinkedIn: Pablo Altera">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://wa.me/5491160127001?text=Hola%20Pablo,%20estuve%20viendo%20tu%20landing%20page%20y%20me%20gustar%C3%ADa%20conversar."
+            target="_blank" rel="noopener noreferrer" class="nav-icon-link" aria-label="WhatsApp directo"
+            title="Contactar por WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+
+          <!-- Contact Primary CTA -->
+          <a href="#contacto" class="btn-contact-nav ms-1">
+            <i class="fa-solid fa-paper-plane me-1"></i> Contactar
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <header id="inicio" class="hero-section">
+    <div class="container">
+      <div class="row align-items-center gy-5">
+        <div class="col-lg-7 text-center text-lg-start">
+          <div class="hero-pill">
+            <i class="fa-solid fa-bolt-lightning hero-pill-icon"></i>
+            <span>Tech Leader en Globant · Oracle Functional Sr level 3</span>
+          </div>
+
+          <h1 class="hero-title">
+            Pablo Martín <span class="gradient-text">Altera</span>
+          </h1>
+
+          <div class="hero-subtitle justify-content-center justify-content-lg-start">
+            <span>Project Manager</span>
+            <span class="separator">/</span>
+            <span>Consultor JD Edwards</span>
+            <span class="separator">/</span>
+            <span>Tech Leader</span>
+          </div>
+
+          <p class="hero-description">
+            Más de <strong>20 años de liderazgo en IT &amp; ERP</strong> transformando operaciones de alta complejidad en
+            LATAM. Coordino equipos de consultores funcionales senior, dirijo implementaciones críticas de
+            <strong>JD Edwards EnterpriseOne</strong> (Distribución, Manufactura y Supply Chain) y potencio migraciones
+            hacia la nube e inteligencia artificial.
+          </p>
+
+          <div class="hero-ctas">
+            <a href="#experiencia" class="btn-primary-hero">
+              <i class="fa-solid fa-briefcase"></i> Explorar Experiencia
+            </a>
+            <a href="https://wa.me/5491160127001?text=Hola%20Pablo,%20quisiera%20conversar%20sobre%20una%20oportunidad%20o%20proyecto."
+              target="_blank" rel="noopener noreferrer" class="btn-secondary-hero">
+              <i class="fa-brands fa-whatsapp text-success"></i> WhatsApp Directo
+            </a>
+            <a href="https://www.linkedin.com/in/pablo-altera/" target="_blank" rel="noopener noreferrer"
+              class="btn-ghost-hero">
+              <i class="fa-brands fa-linkedin"></i> LinkedIn <i class="fa-solid fa-arrow-up-right-from-square ms-1 fs-6"></i>
+            </a>
+          </div>
+
+          <!-- QUICK CONTACT PILLS -->
+          <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-lg-start text-muted small">
+            <span class="d-inline-flex align-items-center gap-1">
+              <i class="fa-solid fa-location-dot" style="color: var(--accent-primary);"></i> Buenos Aires, Argentina
+            </span>
+            <span class="text-secondary opacity-50">·</span>
+            <span class="d-inline-flex align-items-center gap-1">
+              <i class="fa-solid fa-globe" style="color: var(--accent-primary);"></i> Proyectos Regionales (AR / CL / PY)
+            </span>
+            <span class="text-secondary opacity-50">·</span>
+            <span class="d-inline-flex align-items-center gap-1">
+              <i class="fa-solid fa-certificate" style="color: var(--accent-primary);"></i> Cambridge English &amp; CertiProf SFPC
+            </span>
+          </div>
+        </div>
+
+        <!-- HERO VISUAL -->
+        <div class="col-lg-5">
+          <div class="hero-visual-wrapper">
+            <div class="avatar-container">
+              <div class="avatar-glow-ring"></div>
+              <div class="avatar-card">
+                <img src="./img/pablo.jpg" alt="Foto profesional ejecutiva de Pablo Martín Altera - Tech Leader en Globant" class="avatar-img" width="340" height="340" fetchpriority="high" loading="eager" decoding="async" />
+              </div>
+
+              <!-- Floating badge 1 -->
+              <div class="floating-badge floating-badge-top">
+                <div class="badge-icon-box">
+                  <i class="fa-solid fa-users-gear"></i>
+                </div>
+                <div>
+                  <span class="badge-text-primary">Globant Tech Leader</span>
+                  <span class="badge-text-secondary">Equipo de 15 consultores</span>
+                </div>
+              </div>
+
+              <!-- Floating badge 2 -->
+              <div class="floating-badge floating-badge-bottom">
+                <div class="badge-icon-box">
+                  <i class="fa-solid fa-award"></i>
+                </div>
+                <div>
+                  <span class="badge-text-primary">+20 Años Trayectoria</span>
+                  <span class="badge-text-secondary">Enterprise ERP &amp; Agile</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- KEY IMPACT METRICS -->
+      <div class="stats-grid">
+        <div class="row g-3">
+          <div class="col-6 col-md-3">
+            <div class="stat-card-modern">
+              <span class="stat-number" data-target="20" data-prefix="+" data-suffix="">+20</span>
+              <span class="stat-label">Años de trayectoria IT</span>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="stat-card-modern">
+              <span class="stat-number" data-target="15" data-prefix="+" data-suffix="">+15</span>
+              <span class="stat-label">Clientes corporativos LATAM</span>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="stat-card-modern">
+              <span class="stat-number" data-target="15" data-prefix="" data-suffix="+">15+</span>
+              <span class="stat-label">Consultores liderados en Globant</span>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="stat-card-modern">
+              <span class="stat-number" data-target="3" data-prefix="" data-suffix=" Países">3 Países</span>
+              <span class="stat-label">Argentina, Chile y Paraguay</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MARQUEE CLIENTS / TRUST TICKER -->
+  <section class="marquee-section" aria-label="Clientes y empresas colaboradoras">
+    <div class="container-fluid px-0">
+      <div class="marquee-header">
+        <span class="marquee-subtitle">Empresas e industrias que han confiado en mi liderazgo y consultoría</span>
+      </div>
+      <div class="marquee-track">
+        <!-- Track 1 -->
+        <div class="marquee-content">
+          <div class="marquee-card" title="Mastellone Hnos. - La Serenísima">
+            <img src="./img/Logo Mastellone.png" alt="Logo de Mastellone Hnos. - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="Globant">
+            <img src="./img/globant_logo.jpg" alt="Logo de Globant - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="Essity Chile">
+            <img src="./img/essity.png" alt="Logo de Essity - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="BGH">
+            <img src="./img/bgh.png" alt="Logo de BGH - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="Copeval Chile">
+            <img src="./img/copeval.png" alt="Logo de Copeval - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="Grupo Peñaflor">
+            <img src="./img/pena.png" alt="Logo de Grupo Peñaflor - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="Pilkington Automotive">
+            <img src="./img/pilkington.png" alt="Logo de Pilkington - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="Laboratorios Casasco">
+            <img src="./img/casasco.png" alt="Logo de Casasco - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="Petrocuyo">
+            <img src="./img/petrocuyo.png" alt="Logo de Petrocuyo - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="Ghella S.A.">
+            <img src="./img/ghella.png" alt="Logo de Ghella - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="Sancor">
+            <img src="./img/sancor.png" alt="Logo de Sancor - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="Grupo Reimpex Paraguay">
+            <img src="./img/reimpex.png" alt="Logo de Reimpex - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="Sierra Gorda SCM Chile">
+            <img src="./img/sierragorda.png" alt="Logo de Sierra Gorda - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="ILVA">
+            <img src="./img/ilva.png" alt="Logo de ILVA - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="Droguería Argentina">
+            <img src="./img/drogueria.png" alt="Logo de Droguería Argentina - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="Asociart">
+            <img src="./img/asociart.png" alt="Logo de Asociart - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="Capex">
+            <img src="./img/capex.png" alt="Logo de Capex - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="Qbit">
+            <img src="./img/qbit.png" alt="Logo de Qbit - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+        </div>
+
+        <!-- Track 2 (Clone for infinite seamless loop) -->
+        <div class="marquee-content" aria-hidden="true">
+          <div class="marquee-card" title="Mastellone Hnos. - La Serenísima">
+            <img src="./img/Logo Mastellone.png" alt="Logo de Mastellone Hnos. - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="Globant">
+            <img src="./img/globant_logo.jpg" alt="Logo de Globant - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="Essity Chile">
+            <img src="./img/essity.png" alt="Logo de Essity - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="BGH">
+            <img src="./img/bgh.png" alt="Logo de BGH - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="Copeval Chile">
+            <img src="./img/copeval.png" alt="Logo de Copeval - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="Grupo Peñaflor">
+            <img src="./img/pena.png" alt="Logo de Grupo Peñaflor - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="Pilkington Automotive">
+            <img src="./img/pilkington.png" alt="Logo de Pilkington - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="Laboratorios Casasco">
+            <img src="./img/casasco.png" alt="Logo de Casasco - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="Petrocuyo">
+            <img src="./img/petrocuyo.png" alt="Logo de Petrocuyo - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="Ghella S.A.">
+            <img src="./img/ghella.png" alt="Logo de Ghella - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="Sancor">
+            <img src="./img/sancor.png" alt="Logo de Sancor - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="Grupo Reimpex Paraguay">
+            <img src="./img/reimpex.png" alt="Logo de Reimpex - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="Sierra Gorda SCM Chile">
+            <img src="./img/sierragorda.png" alt="Logo de Sierra Gorda - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="ILVA">
+            <img src="./img/ilva.png" alt="Logo de ILVA - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="Droguería Argentina">
+            <img src="./img/drogueria.png" alt="Logo de Droguería Argentina - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="Asociart">
+            <img src="./img/asociart.png" alt="Logo de Asociart - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="Capex">
+            <img src="./img/capex.png" alt="Logo de Capex - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+          <div class="marquee-card" title="Qbit">
+            <img src="./img/qbit.png" alt="Logo de Qbit - Cliente y partner de Pablo Altera" class="marquee-logo" loading="lazy" decoding="async" width="120" height="38" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main id="contenido-principal">
+  <!-- SOBRE MÍ & LINKEDIN PROFILE HIGHLIGHT -->
+  <section id="sobre-mi" class="section-wrapper">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">
+          <i class="fa-solid fa-user-tie"></i> Perfil Ejecutivo
+        </span>
+        <h2 class="section-title">Liderazgo de impacto con visión humana</h2>
+        <p class="section-subtitle">
+          Combinando más de dos décadas de disciplina en gestión de proyectos de gran porte con cercanía, agilidad y
+          foco intransigente en los resultados del negocio.
+        </p>
+      </div>
+
+      <div class="row g-4 align-items-stretch">
+        <!-- Columna Izquierda: Bio & Cita de LinkedIn -->
+        <div class="col-lg-6">
+          <div class="about-card">
+            <h3 class="fw-bold mb-3" style="color: var(--text-primary);">
+              Trayectoria consolidada y evolución continua
+            </h3>
+            <p class="about-bio">
+              Responsable, proactivo y con una actitud decididamente positiva frente a los desafíos más complejos. A lo
+              largo de más de 20 años en la industria del software corporativo, me he especializado en liderar equipos
+              multidisciplinarios, gestionar expectativas de stakeholders y conducir transformaciones de ERP bajo
+              metodologías ágiles y estándares de calidad internacional.
+            </p>
+
+            <!-- Cita textual emblemática de LinkedIn -->
+            <div class="linkedin-quote-box">
+              <div class="quote-header">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Extracto oficial de mi perfil de LinkedIn</span>
+              </div>
+              <p class="quote-body">
+                "Profesional en las artes oscuras de Proyectos Ágiles. Soy un siervo leal del Señor de los Gantts y un
+                torturador entusiasta del personal de mi equipo. En resumen, un carismático 'don-nadie' con formas
+                imaginativas de divertirse. :D"
+              </p>
+              <div class="quote-footer">
+                <i class="fa-solid fa-signature"></i> Pablo Martín Altera · Acerca de
+              </div>
+            </div>
+
+            <!-- Idiomas y Ubicación -->
+            <div class="quick-info-grid">
+              <div class="info-pill">
+                <i class="fa-solid fa-language info-pill-icon"></i>
+                <div>
+                  <div class="info-pill-title">Idiomas</div>
+                  <div class="info-pill-value">Español (Nativo) · Inglés (Full Prof.)</div>
+                </div>
+              </div>
+              <div class="info-pill">
+                <i class="fa-solid fa-map-location-dot info-pill-icon"></i>
+                <div>
+                  <div class="info-pill-title">Residencia</div>
+                  <div class="info-pill-value">Buenos Aires, Argentina</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Columna Derecha: Pilares de Valor -->
+        <div class="col-lg-6">
+          <div class="row g-3 h-100">
+            <div class="col-12">
+              <div class="pillar-card">
+                <div class="pillar-icon-box">
+                  <i class="fa-solid fa-users"></i>
+                </div>
+                <div>
+                  <h4 class="pillar-title">Liderazgo de Equipos de Alto Rendimiento</h4>
+                  <p class="pillar-desc">
+                    Actualmente lidero funcionalmente a un equipo de 15 consultores en Globant, fomentando la autonomía,
+                    la excelencia técnica y una cultura de colaboración orientada al éxito del cliente.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="pillar-card">
+                <div class="pillar-icon-box">
+                  <i class="fa-solid fa-cubes-stacked"></i>
+                </div>
+                <div>
+                  <h4 class="pillar-title">Arquitectura Funcional ERP de Extremo a Extremo</h4>
+                  <p class="pillar-desc">
+                    Dominio exhaustivo de JD Edwards EnterpriseOne en los ciclos de Distribución (SOM, PUR, IM, TMS) y
+                    Manufactura (MFG, MPS, MRP), asegurando la unificación de operaciones y continuidad operativa.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="pillar-card">
+                <div class="pillar-icon-box">
+                  <i class="fa-solid fa-cloud-arrow-up"></i>
+                </div>
+                <div>
+                  <h4 class="pillar-title">Migraciones Cloud &amp; Resiliencia Tecnológica</h4>
+                  <p class="pillar-desc">
+                    Experiencia probada en migraciones de infraestructuras On-Premise hacia Oracle Cloud Infrastructure
+                    (OCI), downgrades seguros y actualizaciones de Tool Release (9.2.4.6) sin paradas de planta.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="pillar-card">
+                <div class="pillar-icon-box">
+                  <i class="fa-solid fa-robot"></i>
+                </div>
+                <div>
+                  <h4 class="pillar-title">Innovación en IA &amp; Metodologías Ágiles</h4>
+                  <p class="pillar-desc">
+                    Certificado en AI Fluency Framework y AI Agents Fundamentals, integrando herramientas de IA
+                    generativa y automatizaciones modernas para acelerar el ciclo de vida de los proyectos.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CASO DE ESTUDIO DESTACADO: MASTELLONE HNOS. (GLOBANT) -->
+  <section id="destacado" class="section-wrapper section-wrapper-alt">
+    <div class="container">
+      <div class="case-study-card">
+        <div class="row align-items-center gy-4">
+          <div class="col-lg-8">
+            <span class="case-tag">
+              <i class="fa-solid fa-star"></i> Caso de Éxito Emblemático
+            </span>
+
+            <div class="case-logos-row">
+              <div class="case-logo-badge">
+                <img src="./img/Logo Mastellone.png" alt="Logo de Mastellone Hnos. - La Serenísima" class="case-logo-img" loading="lazy" decoding="async" width="120" height="34" />
+              </div>
+              <span class="fs-4 text-secondary">✕</span>
+              <div class="case-logo-badge">
+                <img src="./img/globant_logo.jpg" alt="Logo de Globant" class="case-logo-img" loading="lazy" decoding="async" width="120" height="34" />
+              </div>
+            </div>
+
+            <h3 class="case-title">
+              Transformación Digital y Unificación ERP: Implementación JD Edwards en Mastellone Hnos.
+            </h3>
+
+            <p class="case-intro">
+              Liderazgo y ejecución técnica en uno de los proyectos de modernización operativa más significativos para la
+              industria de consumo masivo (CPG) en Argentina: migración y consolidación de los procesos de negocio de
+              Mastellone Hnos. (La Serenísima) hacia <strong>JD Edwards EnterpriseOne</strong>, eliminando silos de
+              información y optimizando la cadena de valor de extremo a extremo.
+            </p>
+
+            <div class="case-pillars-grid">
+              <div class="case-pillar-item">
+                <h4 class="fs-6 fw-bold mb-1" style="color: var(--accent-primary);"><i class="fa-solid fa-circle-nodes"></i> Centralización de Procesos</h4>
+                <p>Integración de Finanzas, Supply Chain y Manufactura en una única fuente de verdad con visibilidad en tiempo real.</p>
+              </div>
+              <div class="case-pillar-item">
+                <h4 class="fs-6 fw-bold mb-1" style="color: var(--accent-primary);"><i class="fa-solid fa-bolt"></i> Escalabilidad Globant</h4>
+                <p>Metodologías ágiles y estándares de excelencia técnica para soportar altísimos volúmenes de transacción continua.</p>
+              </div>
+              <div class="case-pillar-item">
+                <h4 class="fs-6 fw-bold mb-1" style="color: var(--accent-primary);"><i class="fa-solid fa-shield-halved"></i> Mitigación de Riesgos</h4>
+                <p>Diseño de interfaces complejas y migración de datos críticos, asegurando logística just-in-time sin paradas operativas.</p>
+              </div>
+              <div class="case-pillar-item">
+                <h4 class="fs-6 fw-bold mb-1" style="color: var(--accent-primary);"><i class="fa-solid fa-handshake-angle"></i> Gestión del Cambio</h4>
+                <p>Alineación funcional entre stakeholders clave, equipos funcionales y objetivos estratégicos corporativos.</p>
+              </div>
+            </div>
+
+            <div class="tech-chips-row">
+              <span class="tech-chip tech-chip-accent">Tech Leader Funcional</span>
+              <span class="tech-chip">JD Edwards EnterpriseOne 9.2</span>
+              <span class="tech-chip">Oracle ERP</span>
+              <span class="tech-chip">Supply Chain &amp; Distribución</span>
+              <span class="tech-chip">Manufacturas CPG</span>
+              <span class="tech-chip">Logística Just-in-Time</span>
+            </div>
+          </div>
+
+          <div class="col-lg-4 text-center">
+            <div class="p-4 rounded-4" style="background: var(--bg-surface); border: 1px solid var(--border-medium);">
+              <div class="mb-3">
+                <i class="fa-solid fa-trophy fs-1" style="color: var(--accent-primary);"></i>
+              </div>
+              <h4 class="fw-bold text-primary mb-2">Impacto Estratégico</h4>
+              <p class="small text-muted mb-4">
+                Consolidación de la cadena láctea más importante de Argentina sobre una plataforma ERP unificada, moderna y resiliente.
+              </p>
+              <div class="d-grid gap-2">
+                <a href="#contacto" class="btn btn-primary-hero justify-content-center">
+                  <i class="fa-solid fa-comments"></i> Consultar sobre este caso
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCIA & TRAYECTORIA PROFESIONAL -->
+  <section id="experiencia" class="section-wrapper">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">
+          <i class="fa-solid fa-timeline"></i> Trayectoria Profesional
+        </span>
+        <h2 class="section-title">20+ Años liderando transformaciones</h2>
+        <p class="section-subtitle">
+          Explora los roles de liderazgo, implementaciones estratégicas y proyectos internacionales desplegados en
+          empresas líderes de Argentina, Chile y Paraguay.
+        </p>
+      </div>
+
+      <!-- Filter Controls -->
+      <div class="exp-controls">
+        <button class="filter-btn active" data-filter="all">
+          <i class="fa-solid fa-list-check"></i> Todos los Proyectos (<span id="totalProjectsCount">17</span>)
+        </button>
+        <button class="filter-btn" data-filter="leadership">
+          <i class="fa-solid fa-users-gear"></i> Roles de Liderazgo &amp; PM
+        </button>
+        <button class="filter-btn" data-filter="erp">
+          <i class="fa-solid fa-cogs"></i> Implementaciones JDE
+        </button>
+        <button class="filter-btn" data-filter="cloud">
+          <i class="fa-solid fa-cloud"></i> Migraciones Cloud &amp; Infra
+        </button>
+        <button class="filter-btn" data-filter="international">
+          <i class="fa-solid fa-earth-americas"></i> LATAM (Chile &amp; Paraguay)
+        </button>
+      </div>
+
+      <!-- Experience Cards Grid -->
+      <div class="exp-grid">
+        <!-- 1. GLOBANT -->
+        <article class="exp-card-modern" data-category="leadership erp">
+          <div class="exp-card-header">
+            <div>
+              <h3 class="exp-role-title">Tech Leader · Oracle Functional Sr level 3</h3>
+              <div class="exp-company-row">
+                <span class="exp-company-name">Globant Argentina</span>
+                <span class="exp-country-badge">🇦🇷 Argentina</span>
+              </div>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <span class="exp-date-badge">Sept 2022 · Actualidad</span>
+              <div class="exp-logo-container">
+                <img src="./img/globant_logo.jpg" alt="Logo de Globant" class="exp-logo-img" loading="lazy" decoding="async" width="95" height="34" />
+              </div>
+            </div>
+          </div>
+          <p class="exp-description">
+            Tech Leader funcional a cargo de un equipo de <strong>15 consultores especializados</strong>. Dirección de
+            soluciones sobre JD Edwards EnterpriseOne para los macro-procesos de Distribución y Manufacturas, asegurando
+            estándares de ingeniería de software de primer nivel mundial.
+          </p>
+          <ul class="exp-bullets-list">
+            <li><strong>Liderazgo de equipo:</strong> Mentoría, asignación estratégica y coordinación de 15 consultores en implementaciones complejas.</li>
+            <li><strong>Procesos core:</strong> Diseño funcional avanzado en Distribución, Compras, Ventas, Inventarios y Manufactura.</li>
+            <li><strong>Calidad Globant:</strong> Adopción de metodologías ágiles, revisiones de arquitectura y entrega de valor continuo.</li>
+          </ul>
+          <div class="tech-chips-row">
+            <span class="tech-chip tech-chip-accent">Tech Leader</span>
+            <span class="tech-chip">Liderazgo de 15 consultores</span>
+            <span class="tech-chip">JDE EnterpriseOne 9.2</span>
+            <span class="tech-chip">Agile Delivery</span>
+            <span class="tech-chip">Distribución &amp; Manufactura</span>
+          </div>
+        </article>
+
+        <!-- 2. MASTELLONE HNOS -->
+        <article class="exp-card-modern" data-category="leadership erp">
+          <div class="exp-card-header">
+            <div>
+              <h3 class="exp-role-title">Implementación ERP JD Edwards · Mastellone Hnos.</h3>
+              <div class="exp-company-row">
+                <span class="exp-company-name">Mastellone Hnos. (La Serenísima)</span>
+                <span class="exp-country-badge">🇦🇷 Argentina</span>
+              </div>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <span class="exp-date-badge">Sept 2022 · Actualidad</span>
+              <div class="exp-logo-container">
+                <img src="./img/Logo Mastellone.png" alt="Logo de Mastellone Hnos." class="exp-logo-img" loading="lazy" decoding="async" width="95" height="34" />
+              </div>
+            </div>
+          </div>
+          <p class="exp-description">
+            Liderazgo funcional en la transformación operativa y tecnológica de la compañía láctea más grande de Argentina,
+            unificando la operatoria en JD Edwards EnterpriseOne.
+          </p>
+          <ul class="exp-bullets-list">
+            <li><strong>Centralización ERP:</strong> Integración de Finanzas, Supply Chain y Manufactura en una única fuente de verdad.</li>
+            <li><strong>Continuidad garantizada:</strong> Mitigación de riesgos en interfaces y datos para soportar logística just-in-time.</li>
+            <li><strong>Gestión del cambio:</strong> Interacción fluida con directivos y usuarios clave para asegurar adopción integral.</li>
+          </ul>
+          <div class="tech-chips-row">
+            <span class="tech-chip tech-chip-accent">Project Manager / Tech Lead</span>
+            <span class="tech-chip">JDE EnterpriseOne</span>
+            <span class="tech-chip">Consumo Masivo (CPG)</span>
+            <span class="tech-chip">Supply Chain</span>
+            <span class="tech-chip">Manufactura</span>
+          </div>
+        </article>
+
+        <!-- 3. ESSITY CHILE -->
+        <article class="exp-card-modern" data-category="leadership cloud international">
+          <div class="exp-card-header">
+            <div>
+              <h3 class="exp-role-title">Migración Tecnológica &amp; Tool Release Upgrade 9.2.4.6</h3>
+              <div class="exp-company-row">
+                <span class="exp-company-name">Essity S.A.</span>
+                <span class="exp-country-badge">🇨🇱 Chile</span>
+              </div>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <span class="exp-date-badge">2022 · 9 meses</span>
+              <div class="exp-logo-container">
+                <img src="./img/essity.png" alt="Logo de Essity" class="exp-logo-img" loading="lazy" decoding="async" width="95" height="34" />
+              </div>
+            </div>
+          </div>
+          <p class="exp-description">
+            Project Manager en la migración tecnológica integral a nueva infraestructura de servidores y actualización en
+            simultáneo del Tool Release de JD Edwards a versión 9.2.4.6 en Chile.
+          </p>
+          <div class="tech-chips-row">
+            <span class="tech-chip tech-chip-accent">Project Manager</span>
+            <span class="tech-chip">Tool Release 9.2.4.6</span>
+            <span class="tech-chip">Migración Servidores</span>
+            <span class="tech-chip">Chile</span>
+          </div>
+        </article>
+
+        <!-- 4. BGH S.A (MIGRACIÓN OCI) -->
+        <article class="exp-card-modern" data-category="leadership cloud">
+          <div class="exp-card-header">
+            <div>
+              <h3 class="exp-role-title">Migración de OCI a On-Premise &amp; Downgrade de Ambientes</h3>
+              <div class="exp-company-row">
+                <span class="exp-company-name">BGH S.A.</span>
+                <span class="exp-country-badge">🇦🇷 Argentina</span>
+              </div>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <span class="exp-date-badge">2022</span>
+              <div class="exp-logo-container">
+                <img src="./img/bgh.png" alt="Logo de BGH" class="exp-logo-img" loading="lazy" decoding="async" width="95" height="34" />
+              </div>
+            </div>
+          </div>
+          <p class="exp-description">
+            Project Manager a cargo de la arquitectura y ejecución del proceso de migración desde Oracle Cloud
+            Infrastructure (OCI) a servidores On-Premise y downgrade de ambientes con mínima ventana de mantenimiento.
+          </p>
+          <div class="tech-chips-row">
+            <span class="tech-chip tech-chip-accent">Project Manager</span>
+            <span class="tech-chip">OCI (Oracle Cloud)</span>
+            <span class="tech-chip">On-Premise</span>
+            <span class="tech-chip">Arquitectura de Ambientes</span>
+          </div>
+        </article>
+
+        <!-- 5. COPEVAL CHILE (INTEGRACIÓN POS) -->
+        <article class="exp-card-modern" data-category="leadership erp international">
+          <div class="exp-card-header">
+            <div>
+              <h3 class="exp-role-title">Integración JDE con Terminales POS Bancarias &amp; Estabilización Web</h3>
+              <div class="exp-company-row">
+                <span class="exp-company-name">Copeval S.A.</span>
+                <span class="exp-country-badge">🇨🇱 Chile</span>
+              </div>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <span class="exp-date-badge">2022</span>
+              <div class="exp-logo-container">
+                <img src="./img/copeval.png" alt="Logo de Copeval" class="exp-logo-img" loading="lazy" decoding="async" width="95" height="34" />
+              </div>
+            </div>
+          </div>
+          <p class="exp-description">
+            Project Manager en la estabilización de entornos web de JD Edwards y la integración en tiempo real del ERP con
+            terminales de pago electrónico y POS bancarias en las sucursales de Chile.
+          </p>
+          <div class="tech-chips-row">
+            <span class="tech-chip tech-chip-accent">Project Manager</span>
+            <span class="tech-chip">Integración POS Bancaria</span>
+            <span class="tech-chip">Estabilización Web</span>
+            <span class="tech-chip">Retail &amp; Agro</span>
+            <span class="tech-chip">Chile</span>
+          </div>
+        </article>
+
+        <!-- 6. PILKINGTON AUTOMOTIVE (AFIP QR) -->
+        <article class="exp-card-modern" data-category="erp">
+          <div class="exp-card-header">
+            <div>
+              <h3 class="exp-role-title">Facturación BI Publisher con Código QR AFIP</h3>
+              <div class="exp-company-row">
+                <span class="exp-company-name">Pilkington Automotive</span>
+                <span class="exp-country-badge">🇦🇷 Argentina</span>
+              </div>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <span class="exp-date-badge">2021</span>
+              <div class="exp-logo-container">
+                <img src="./img/pilkington.png" alt="Logo de Pilkington" class="exp-logo-img" loading="lazy" decoding="async" width="95" height="34" />
+              </div>
+            </div>
+          </div>
+          <p class="exp-description">
+            PM y Arquitecto Funcional en la implementación de la nueva normativa fiscal de Facturación Electrónica mediante
+            Oracle BI Publisher con código QR dinámico requerido por AFIP.
+          </p>
+          <div class="tech-chips-row">
+            <span class="tech-chip tech-chip-accent">PM &amp; Arquitecto Funcional</span>
+            <span class="tech-chip">BI Publisher</span>
+            <span class="tech-chip">Facturación Electrónica QR</span>
+            <span class="tech-chip">AFIP</span>
+            <span class="tech-chip">Automotriz</span>
+          </div>
+        </article>
+
+        <!-- 7. GRUPO PEÑAFLOR -->
+        <article class="exp-card-modern" data-category="leadership erp">
+          <div class="exp-card-header">
+            <div>
+              <h3 class="exp-role-title">Mejoras Evolutivas de Procesos &amp; Soporte Operativo JDE 9.0</h3>
+              <div class="exp-company-row">
+                <span class="exp-company-name">Grupo Peñaflor S.A.</span>
+                <span class="exp-country-badge">🇦🇷 Argentina</span>
+              </div>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <span class="exp-date-badge">2017 - 2021</span>
+              <div class="exp-logo-container">
+                <img src="./img/pena.png" alt="Logo de Grupo Peñaflor" class="exp-logo-img" loading="lazy" decoding="async" width="95" height="34" />
+              </div>
+            </div>
+          </div>
+          <p class="exp-description">
+            Liderazgo de proyectos ágiles de mejoras continuas y soporte especializado de segundo y tercer nivel en JD
+            Edwards 9.0 para una de las bodegas líderes del mundo vitivinícola.
+          </p>
+          <div class="tech-chips-row">
+            <span class="tech-chip tech-chip-accent">PM &amp; Consultor Funcional</span>
+            <span class="tech-chip">Inventarios &amp; Compras</span>
+            <span class="tech-chip">Ventas &amp; Facturación</span>
+            <span class="tech-chip">Transporte (TMS)</span>
+            <span class="tech-chip">EDIs &amp; Manufactura</span>
+          </div>
+        </article>
+
+        <!-- 8. BGH S.A (OCI MIGRATION & AGILITY) -->
+        <article class="exp-card-modern" data-category="leadership cloud erp">
+          <div class="exp-card-header">
+            <div>
+              <h3 class="exp-role-title">Migración a Oracle Cloud Infrastructure (OCI) &amp; Mejoras Ágiles</h3>
+              <div class="exp-company-row">
+                <span class="exp-company-name">BGH S.A.</span>
+                <span class="exp-country-badge">🇦🇷 Argentina</span>
+              </div>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <span class="exp-date-badge">2018 - 2020</span>
+              <div class="exp-logo-container">
+                <img src="./img/bgh.png" alt="Logo de BGH" class="exp-logo-img" loading="lazy" decoding="async" width="95" height="34" />
+              </div>
+            </div>
+          </div>
+          <p class="exp-description">
+            Liderazgo e implementación de proyectos ágiles de evolución funcional en JDE 9.1 y 9.2. Acompañamiento en la
+            migración integral de la infraestructura On-Premise a Oracle Cloud Infrastructure (OCI).
+          </p>
+          <div class="tech-chips-row">
+            <span class="tech-chip tech-chip-accent">Consultor Funcional Senior</span>
+            <span class="tech-chip">Oracle Cloud (OCI)</span>
+            <span class="tech-chip">JDE 9.2 / 9.1</span>
+            <span class="tech-chip">Facturación Electrónica</span>
+            <span class="tech-chip">Importaciones</span>
+          </div>
+        </article>
+
+        <!-- 9. PETROCUYO -->
+        <article class="exp-card-modern" data-category="erp">
+          <div class="exp-card-header">
+            <div>
+              <h3 class="exp-role-title">Automatización OVI ARBA COT en JD Edwards</h3>
+              <div class="exp-company-row">
+                <span class="exp-company-name">Petrocuyo S.A.</span>
+                <span class="exp-country-badge">🇦🇷 Argentina</span>
+              </div>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <span class="exp-date-badge">2019</span>
+              <div class="exp-logo-container">
+                <img src="./img/petrocuyo.png" alt="Logo de Petrocuyo" class="exp-logo-img" loading="lazy" decoding="async" width="95" height="34" />
+              </div>
+            </div>
+          </div>
+          <p class="exp-description">
+            Implementación de mejora integral OVI ARBA COT: generación automática del Código de Operación de Traslado en
+            remitos, conexión con organismo fiscal y retorno automático de confirmación en JD Edwards.
+          </p>
+          <div class="tech-chips-row">
+            <span class="tech-chip tech-chip-accent">Consultor Funcional</span>
+            <span class="tech-chip">ARBA COT</span>
+            <span class="tech-chip">Integración Fiscal</span>
+            <span class="tech-chip">Petroquímica</span>
+          </div>
+        </article>
+
+        <!-- 10. SIERRA GORDA SCM CHILE -->
+        <article class="exp-card-modern" data-category="erp international">
+          <div class="exp-card-header">
+            <div>
+              <h3 class="exp-role-title">Mesa de Ayuda Nivel 2 · Operación Minera</h3>
+              <div class="exp-company-row">
+                <span class="exp-company-name">Sierra Gorda SCM</span>
+                <span class="exp-country-badge">🇨🇱 Chile</span>
+              </div>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <span class="exp-date-badge">2018</span>
+              <div class="exp-logo-container">
+                <img src="./img/sierragorda.png" alt="Logo de Sierra Gorda" class="exp-logo-img" loading="lazy" decoding="async" width="95" height="34" />
+              </div>
+            </div>
+          </div>
+          <p class="exp-description">
+            Soporte funcional Help Desk nivel 2 en JD Edwards para una de las operaciones mineras más importantes de Chile,
+            cubriendo Inventarios, Compras, Ventas, Mantenimiento de Planta y Finanzas.
+          </p>
+          <div class="tech-chips-row">
+            <span class="tech-chip tech-chip-accent">Help Desk L2</span>
+            <span class="tech-chip">Minería</span>
+            <span class="tech-chip">Mantenimiento de Planta</span>
+            <span class="tech-chip">Inventarios &amp; Compras</span>
+            <span class="tech-chip">Chile</span>
+          </div>
+        </article>
+
+        <!-- 11. GHELLA S.A (NUEVO SARMIENTO) -->
+        <article class="exp-card-modern" data-category="erp">
+          <div class="exp-card-header">
+            <div>
+              <h3 class="exp-role-title">Rollout JD Edwards 9.0 · Consorcio Nuevo Sarmiento UTE</h3>
+              <div class="exp-company-row">
+                <span class="exp-company-name">Ghella S.A.</span>
+                <span class="exp-country-badge">🇦🇷 Argentina</span>
+              </div>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <span class="exp-date-badge">2017</span>
+              <div class="exp-logo-container">
+                <img src="./img/ghella.png" alt="Logo de Ghella" class="exp-logo-img" loading="lazy" decoding="async" width="95" height="34" />
+              </div>
+            </div>
+          </div>
+          <p class="exp-description">
+            Rollout de JD Edwards EnterpriseOne 9.0 para la gran obra de infraestructura ferroviaria Consorcio Nuevo
+            Sarmiento, cubriendo los módulos de compras, inventarios y abastecimiento de obra.
+          </p>
+          <div class="tech-chips-row">
+            <span class="tech-chip tech-chip-accent">Rollout ERP</span>
+            <span class="tech-chip">Infraestructura &amp; Construcción</span>
+            <span class="tech-chip">Inventarios &amp; Compras</span>
+          </div>
+        </article>
+
+        <!-- 12. GRUPO REIMPEX PARAGUAY -->
+        <article class="exp-card-modern" data-category="erp international">
+          <div class="exp-card-header">
+            <div>
+              <h3 class="exp-role-title">Implementación JDE 9.1.5 &amp; Localización Fiscal Paraguaya</h3>
+              <div class="exp-company-row">
+                <span class="exp-company-name">Grupo REIMPEX</span>
+                <span class="exp-country-badge">🇵🇾 Paraguay</span>
+              </div>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <span class="exp-date-badge">2015 - 2017</span>
+              <div class="exp-logo-container">
+                <img src="./img/reimpex.png" alt="Logo de Reimpex" class="exp-logo-img" loading="lazy" decoding="async" width="95" height="34" />
+              </div>
+            </div>
+          </div>
+          <p class="exp-description">
+            Implementación completa de JD Edwards EnterpriseOne 9.1.5 con adaptación y customización de las localizaciones
+            fiscales y normativas tributarias de la República del Paraguay.
+          </p>
+          <div class="tech-chips-row">
+            <span class="tech-chip tech-chip-accent">Implementación ERP</span>
+            <span class="tech-chip">Localización Fiscal PY</span>
+            <span class="tech-chip">Ventas &amp; Inventarios</span>
+            <span class="tech-chip">Paraguay</span>
+          </div>
+        </article>
+
+        <!-- 13. SANCOR -->
+        <article class="exp-card-modern" data-category="erp">
+          <div class="exp-card-header">
+            <div>
+              <h3 class="exp-role-title">Optimización de Procesos &amp; Precios Avanzados JDE 9.0</h3>
+              <div class="exp-company-row">
+                <span class="exp-company-name">Sancor C.U.L.</span>
+                <span class="exp-country-badge">🇦🇷 Argentina</span>
+              </div>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <span class="exp-date-badge">2017</span>
+              <div class="exp-logo-container">
+                <img src="./img/sancor.png" alt="Logo de Sancor" class="exp-logo-img" loading="lazy" decoding="async" width="95" height="34" />
+              </div>
+            </div>
+          </div>
+          <p class="exp-description">
+            Reingeniería y optimización del motor de Precios Avanzados (Advanced Pricing) en JD Edwards 9.0 para la
+            distribución y liquidación comercial en gran escala.
+          </p>
+          <div class="tech-chips-row">
+            <span class="tech-chip tech-chip-accent">Consultor Funcional</span>
+            <span class="tech-chip">Precios Avanzados</span>
+            <span class="tech-chip">Distribución CPG</span>
+          </div>
+        </article>
+
+        <!-- 14. LABORATORIOS CASASCO -->
+        <article class="exp-card-modern" data-category="leadership erp">
+          <div class="exp-card-header">
+            <div>
+              <h3 class="exp-role-title">Relevamiento, Diseño &amp; Gerencia de Aplicaciones IT</h3>
+              <div class="exp-company-row">
+                <span class="exp-company-name">Laboratorios Casasco SAIC</span>
+                <span class="exp-country-badge">🇦🇷 Argentina</span>
+              </div>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <span class="exp-date-badge">2015 &amp; 2022</span>
+              <div class="exp-logo-container">
+                <img src="./img/casasco.png" alt="Logo de Laboratorios Casasco" class="exp-logo-img" loading="lazy" decoding="async" width="95" height="34" />
+              </div>
+            </div>
+          </div>
+          <p class="exp-description">
+            Relevamiento y diseño de soluciones de manufactura farmacéutica en JDE 8.12 y posterior desempeño como Analista
+            de Aplicaciones en Gerencia de IT coordinando proveedores y requerimientos de calidad.
+          </p>
+          <div class="tech-chips-row">
+            <span class="tech-chip tech-chip-accent">IT Management &amp; JDE</span>
+            <span class="tech-chip">Manufactura Farmacéutica</span>
+            <span class="tech-chip">Control de Calidad</span>
+          </div>
+        </article>
+
+        <!-- 15. INVERSIONES ALSACIA (CHILE) -->
+        <article class="exp-card-modern" data-category="leadership erp international">
+          <div class="exp-card-header">
+            <div>
+              <h3 class="exp-role-title">Mejoras de Procesos &amp; Capacitación Transantiago</h3>
+              <div class="exp-company-row">
+                <span class="exp-company-name">Inversiones Alsacia / Express de Santiago</span>
+                <span class="exp-country-badge">🇨🇱 Chile</span>
+              </div>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <span class="exp-date-badge">2015</span>
+              <div class="exp-logo-container">
+                <img src="./img/alsacia.png" alt="Logo de Alsacia" class="exp-logo-img" loading="lazy" decoding="async" width="95" height="34" />
+              </div>
+            </div>
+          </div>
+          <p class="exp-description">
+            Liderazgo de proyectos ágiles de mejoras evolutivas, actualización de versión, localización chilena y dictado de
+            capacitaciones corporativas para el operador del transporte público de Santiago de Chile.
+          </p>
+          <div class="tech-chips-row">
+            <span class="tech-chip tech-chip-accent">PM &amp; Trainer JDE</span>
+            <span class="tech-chip">Localización Chile</span>
+            <span class="tech-chip">Transporte Masivo</span>
+            <span class="tech-chip">Chile</span>
+          </div>
+        </article>
+
+        <!-- 16. ALTERAIT SOLUTIONS -->
+        <article class="exp-card-modern" data-category="leadership erp cloud">
+          <div class="exp-card-header">
+            <div>
+              <h3 class="exp-role-title">Fundador &amp; Director de Proyectos IT</h3>
+              <div class="exp-company-row">
+                <span class="exp-company-name">AlteraIT Solutions</span>
+                <span class="exp-country-badge">🇦🇷 Argentina</span>
+              </div>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <span class="exp-date-badge">Ene 2006 · Oct 2022</span>
+              <div class="exp-logo-container">
+                <img src="./img/alterait.png" alt="Logo de AlteraIT Solutions" class="exp-logo-img" loading="lazy" decoding="async" width="95" height="34" />
+              </div>
+            </div>
+          </div>
+          <p class="exp-description">
+            Emprendimiento propio dedicado a la dirección de proyectos, consultoría en sistemas de gestión ERP (JDE, Oracle
+            Cloud, NetSuite), desarrollo de software web moderno y venta de soluciones de infraestructura.
+          </p>
+          <div class="tech-chips-row">
+            <span class="tech-chip tech-chip-accent">Emprendimiento Propio</span>
+            <span class="tech-chip">Dirección de Proyectos</span>
+            <span class="tech-chip">Consultoría ERP</span>
+            <span class="tech-chip">Desarrollo Web</span>
+          </div>
+        </article>
+
+        <!-- 17. FUERZA AÉREA ARGENTINA -->
+        <article class="exp-card-modern" data-category="leadership">
+          <div class="exp-card-header">
+            <div>
+              <h3 class="exp-role-title">Jefe de Informática · Dirección General de Sanidad</h3>
+              <div class="exp-company-row">
+                <span class="exp-company-name">Fuerza Aérea Argentina</span>
+                <span class="exp-country-badge">🇦🇷 Argentina</span>
+              </div>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <span class="exp-date-badge">Abr 2009 · May 2014</span>
+              <div class="exp-logo-container">
+                <i class="fa-solid fa-shield-halved fs-3" style="color: var(--accent-primary);"></i>
+              </div>
+            </div>
+          </div>
+          <p class="exp-description">
+            Gestión y ejecución de directivas institucionales, asesoramiento técnico en compra de hardware/software, control
+            del parque informático de sanidad militar, desarrollo interno, inventario y capacitación de personal.
+          </p>
+          <div class="tech-chips-row">
+            <span class="tech-chip tech-chip-accent">Jefe de Informática</span>
+            <span class="tech-chip">Gestión de Infraestructura</span>
+            <span class="tech-chip">Seguridad &amp; Directivas</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- HABILIDADES & ECOSISTEMA DE COMPETENCIAS -->
+  <section id="habilidades" class="section-wrapper section-wrapper-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">
+          <i class="fa-solid fa-microchip"></i> Habilidades &amp; Competencias
+        </span>
+        <h2 class="section-title">Ecosistema técnico y metodológico</h2>
+        <p class="section-subtitle">
+          Un conjunto integral de herramientas que articulan gestión ágil de proyectos, arquitectura profunda de ERP,
+          infraestructura en la nube y visión de inteligencia artificial.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <!-- 1. Gestión de Proyectos -->
+        <div class="col-md-6 col-lg-3">
+          <div class="skills-domain-card">
+            <div class="domain-header">
+              <div class="domain-icon-box">
+                <i class="fa-solid fa-diagram-project"></i>
+              </div>
+              <div>
+                <h3 class="domain-title">Gestión Ágil &amp; PM</h3>
+                <span class="domain-subtitle">Metodología y delivery</span>
+              </div>
+            </div>
+            <div class="skills-badge-list">
+              <span class="skill-pill"><i class="fa-solid fa-check"></i> Scrum (SFPC)</span>
+              <span class="skill-pill"><i class="fa-solid fa-check"></i> Diplomatura PMI (UBA)</span>
+              <span class="skill-pill"><i class="fa-solid fa-check"></i> Liderazgo 15+ Consultores</span>
+              <span class="skill-pill"><i class="fa-solid fa-check"></i> Gestión de Stakeholders</span>
+              <span class="skill-pill"><i class="fa-solid fa-check"></i> Roadmaps &amp; Gantts</span>
+              <span class="skill-pill"><i class="fa-solid fa-check"></i> Gestión de Riesgos</span>
+              <span class="skill-pill"><i class="fa-solid fa-check"></i> Gestión del Cambio</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. JD Edwards EnterpriseOne -->
+        <div class="col-md-6 col-lg-3">
+          <div class="skills-domain-card">
+            <div class="domain-header">
+              <div class="domain-icon-box">
+                <i class="fa-solid fa-gears"></i>
+              </div>
+              <div>
+                <h3 class="domain-title">JD Edwards ERP</h3>
+                <span class="domain-subtitle">Arquitectura funcional E1</span>
+              </div>
+            </div>
+            <div class="skills-badge-list">
+              <span class="skill-pill"><i class="fa-solid fa-check"></i> Versiones 8.10 a 9.2</span>
+              <span class="skill-pill"><i class="fa-solid fa-check"></i> Distribución (SOM, PUR, IM)</span>
+              <span class="skill-pill"><i class="fa-solid fa-check"></i> Manufactura (MFG, MPS, MRP)</span>
+              <span class="skill-pill"><i class="fa-solid fa-check"></i> Transporte (TMS)</span>
+              <span class="skill-pill"><i class="fa-solid fa-check"></i> Localización AR / CL / PY</span>
+              <span class="skill-pill"><i class="fa-solid fa-check"></i> BI Publisher &amp; QR AFIP</span>
+              <span class="skill-pill"><i class="fa-solid fa-check"></i> Interfaces EDIs / APIs</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Cloud & Arquitectura Digital -->
+        <div class="col-md-6 col-lg-3">
+          <div class="skills-domain-card">
+            <div class="domain-header">
+              <div class="domain-icon-box">
+                <i class="fa-solid fa-cloud"></i>
+              </div>
+              <div>
+                <h3 class="domain-title">Cloud &amp; Web</h3>
+                <span class="domain-subtitle">Infraestructura y código</span>
+              </div>
+            </div>
+            <div class="skills-badge-list">
+              <span class="skill-pill"><i class="fa-solid fa-check"></i> Oracle Cloud (OCI)</span>
+              <span class="skill-pill"><i class="fa-solid fa-check"></i> Oracle Cloud ERP</span>
+              <span class="skill-pill"><i class="fa-solid fa-check"></i> NetSuite ERP</span>
+              <span class="skill-pill"><i class="fa-solid fa-check"></i> Tool Release 9.2.4.6</span>
+              <span class="skill-pill"><i class="fa-solid fa-check"></i> Desarrollo Web Moderno</span>
+              <span class="skill-pill"><i class="fa-solid fa-check"></i> HTML5 / CSS3 / JS</span>
+              <span class="skill-pill"><i class="fa-solid fa-check"></i> Redes &amp; Infraestructura</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. IA & Soft Skills -->
+        <div class="col-md-6 col-lg-3">
+          <div class="skills-domain-card">
+            <div class="domain-header">
+              <div class="domain-icon-box">
+                <i class="fa-solid fa-brain"></i>
+              </div>
+              <div>
+                <h3 class="domain-title">IA &amp; Soft Skills</h3>
+                <span class="domain-subtitle">Vanguardia y liderazgo</span>
+              </div>
+            </div>
+            <div class="skills-badge-list">
+              <span class="skill-pill"><i class="fa-solid fa-check"></i> AI Fluency Framework</span>
+              <span class="skill-pill"><i class="fa-solid fa-check"></i> AI Agents Fundamentals</span>
+              <span class="skill-pill"><i class="fa-solid fa-check"></i> Automatizaciones de IT</span>
+              <span class="skill-pill"><i class="fa-solid fa-check"></i> Escucha Activa</span>
+              <span class="skill-pill"><i class="fa-solid fa-check"></i> Negociación &amp; Expectativas</span>
+              <span class="skill-pill"><i class="fa-solid fa-check"></i> Capacitación &amp; Mentoring</span>
+              <span class="skill-pill"><i class="fa-solid fa-check"></i> Inglés Profesional (FCE)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMACIÓN ACADÉMICA & CERTIFICACIONES -->
+  <section id="formacion" class="section-wrapper">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">
+          <i class="fa-solid fa-graduation-cap"></i> Formación &amp; Credenciales
+        </span>
+        <h2 class="section-title">Base académica y certificaciones</h2>
+        <p class="section-subtitle">
+          Educación formal en ingeniería y gestión de proyectos, complementada con certificaciones de vanguardia en
+          inteligencia artificial, metodologías ágiles e idiomas.
+        </p>
+      </div>
+
+      <div class="row g-5">
+        <!-- Formación Académica -->
+        <div class="col-lg-6">
+          <h3 class="fw-bold mb-4" style="color: var(--text-primary);">
+            <i class="fa-solid fa-building-columns me-2" style="color: var(--accent-primary);"></i>
+            Formación Académica
+          </h3>
+
+          <div class="timeline-modern">
+            <div class="timeline-modern-item">
+              <div class="timeline-modern-node"></div>
+              <span class="timeline-modern-year">2022</span>
+              <h4 class="timeline-modern-degree">Desarrollo Web Fullstack</h4>
+              <p class="timeline-modern-institution">Coderhouse</p>
+            </div>
+
+            <div class="timeline-modern-item">
+              <div class="timeline-modern-node"></div>
+              <span class="timeline-modern-year">2016</span>
+              <h4 class="timeline-modern-degree">Diplomatura en Administración de Proyectos (PMI)</h4>
+              <p class="timeline-modern-institution">Universidad de Buenos Aires (UBA)</p>
+            </div>
+
+            <div class="timeline-modern-item">
+              <div class="timeline-modern-node"></div>
+              <span class="timeline-modern-year">2014 - 2018</span>
+              <h4 class="timeline-modern-degree">Ingeniería en Informática</h4>
+              <p class="timeline-modern-institution">Universidad Nacional de Avellaneda (UNDAV)</p>
+            </div>
+
+            <div class="timeline-modern-item">
+              <div class="timeline-modern-node"></div>
+              <span class="timeline-modern-year">2007</span>
+              <h4 class="timeline-modern-degree">Ingeniería en Sistemas de Información</h4>
+              <p class="timeline-modern-institution">Universidad Tecnológica Nacional (UTN)</p>
+            </div>
+
+            <div class="timeline-modern-item">
+              <div class="timeline-modern-node"></div>
+              <span class="timeline-modern-year">2003 - 2006</span>
+              <h4 class="timeline-modern-degree">Bachiller en Ciencias Naturales y Exactas</h4>
+              <p class="timeline-modern-institution">Instituto Norland de Lanús</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certificaciones y Especializaciones -->
+        <div class="col-lg-6">
+          <h3 class="fw-bold mb-4" style="color: var(--text-primary);">
+            <i class="fa-solid fa-certificate me-2" style="color: var(--accent-primary);"></i>
+            Certificaciones &amp; Capacitaciones Oficiales
+          </h3>
+
+          <div class="cert-card">
+            <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+            <div>
+              <div class="cert-title">FIRST Certificate of English (FCE)</div>
+              <div class="cert-issuer">University of Cambridge · Nivel B2/C1 Profesional</div>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon"><i class="fa-solid fa-brain"></i></div>
+            <div>
+              <div class="cert-title">AI Fluency Framework &amp; Foundations</div>
+              <div class="cert-issuer">Fundamentos de IA y fluidez en modelos generativos</div>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon"><i class="fa-solid fa-robot"></i></div>
+            <div>
+              <div class="cert-title">AI Agents Fundamentals</div>
+              <div class="cert-issuer">Arquitectura y despliegue de agentes autónomos de IA</div>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon"><i class="fa-solid fa-people-arrows"></i></div>
+            <div>
+              <div class="cert-title">Scrum Foundation Professional Certificate (SFPC)</div>
+              <div class="cert-issuer">CertiProf · Metodologías Ágiles de Proyecto</div>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon"><i class="fa-solid fa-comments"></i></div>
+            <div>
+              <div class="cert-title">La Escucha Activa &amp; Gestión de Expectativas del Cliente</div>
+              <div class="cert-issuer">Habilidades directivas y negociación con stakeholders</div>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon"><i class="fa-solid fa-cogs"></i></div>
+            <div>
+              <div class="cert-title">Especializaciones Oficiales JD Edwards EnterpriseOne</div>
+              <div class="cert-issuer">
+                SOM (Ventas) · PUR (Compras) · IM (Inventarios) · MFG (Producción) · MPS (Planificación) · MRP (Recursos) · TMS (Transporte)
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO & CANALES DIRECTOS -->
+  <section id="contacto" class="section-wrapper section-wrapper-alt">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag mx-auto">
+          <i class="fa-solid fa-paper-plane"></i> Contacto Directo
+        </span>
+        <h2 class="section-title">¿Conversamos sobre tu próximo proyecto?</h2>
+        <p class="section-subtitle mx-auto">
+          Estoy disponible para consultoría estratégica en ERP, liderazgo de iniciativas tecnológicas y oportunidades de
+          transformación digital en LATAM.
+        </p>
+      </div>
+
+      <div class="contact-hub-card">
+        <div class="row g-4 align-items-center">
+          <!-- Columna 1: Canales Directos -->
+          <div class="col-lg-6">
+            <h3 class="fw-bold mb-3" style="color: var(--text-primary);">
+              Canales de Comunicación Inmediata
+            </h3>
+            <p class="text-secondary small mb-4">
+              Haz click en cualquiera de los canales para abrir la aplicación correspondiente o copiar los datos al portapapeles.
+            </p>
+
+            <!-- WhatsApp -->
+            <a href="https://wa.me/5491160127001?text=Hola%20Pablo,%20estuve%20viendo%20tu%20landing%20page%20y%20me%20gustar%C3%ADa%20conversar%20sobre%20un%20proyecto."
+              target="_blank" rel="noopener noreferrer" class="contact-action-btn">
+              <div class="contact-btn-left">
+                <div class="contact-btn-icon" style="color: #25d366;">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div>
+                  <span class="contact-btn-label">WhatsApp Directo</span>
+                  <span class="contact-btn-value">+54 9 11 6012 7001</span>
+                </div>
+              </div>
+              <span class="badge rounded-pill bg-success-subtle text-success border border-success-subtle px-3 py-2">
+                Abrir Chat <i class="fa-solid fa-arrow-right ms-1"></i>
+              </span>
+            </a>
+
+            <!-- Email -->
+            <div class="contact-action-btn">
+              <div class="contact-btn-left">
+                <div class="contact-btn-icon" style="color: #06b6d4;">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div>
+                  <span class="contact-btn-label">Correo Electrónico</span>
+                  <a href="mailto:pabloaltera@gmail.com" class="contact-btn-value text-decoration-none">
+                    pabloaltera@gmail.com
+                  </a>
+                </div>
+              </div>
+              <button class="btn-copy-small" data-copy="pabloaltera@gmail.com" data-label="Email" title="Copiar correo">
+                <i class="fa-regular fa-copy fs-5"></i>
+              </button>
+            </div>
+
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/pablo-altera/" target="_blank" rel="noopener noreferrer"
+              class="contact-action-btn">
+              <div class="contact-btn-left">
+                <div class="contact-btn-icon" style="color: #0077b5;">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <div>
+                  <span class="contact-btn-label">LinkedIn Oficial</span>
+                  <span class="contact-btn-value">linkedin.com/in/pablo-altera</span>
+                </div>
+              </div>
+              <i class="fa-solid fa-arrow-up-right-from-square text-muted"></i>
+            </a>
+
+            <!-- Llamada Telefónica Directa -->
+            <div class="contact-action-btn">
+              <div class="contact-btn-left">
+                <div class="contact-btn-icon" style="color: var(--accent-primary);">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div>
+                  <span class="contact-btn-label">Llamada Telefónica</span>
+                  <a href="tel:+5491160127001" class="contact-btn-value text-decoration-none">
+                    +54 9 11 6012 7001
+                  </a>
+                </div>
+              </div>
+              <button class="btn-copy-small" data-copy="+5491160127001" data-label="Teléfono" title="Copiar teléfono">
+                <i class="fa-regular fa-copy fs-5"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Columna 2: Redactor de Mensaje Rápido -->
+          <div class="col-lg-6">
+            <div class="quick-message-form">
+              <h3 class="fw-bold mb-3" style="color: var(--text-primary);">
+                <i class="fa-solid fa-pen-to-square me-2" style="color: var(--accent-primary);"></i>
+                Enviar Mensaje Rápido
+              </h3>
+              <form id="contactHelperForm">
+                <div class="mb-3">
+                  <label for="clientName" class="form-label form-label-custom">Tu Nombre o Empresa</label>
+                  <input type="text" class="form-control form-control-custom" id="clientName"
+                    placeholder="Ej: Lic. Martín Gómez (Gerente IT)" />
+                </div>
+                <div class="mb-3">
+                  <label for="clientContact" class="form-label form-label-custom">Email o Teléfono de Contacto</label>
+                  <input type="text" class="form-control form-control-custom" id="clientContact"
+                    placeholder="Ej: contacto@empresa.com o +54 9 11..." />
+                </div>
+                <div class="mb-3">
+                  <label for="clientMessage" class="form-label form-label-custom">Motivo / Consulta</label>
+                  <textarea class="form-control form-control-custom" id="clientMessage" rows="3"
+                    placeholder="Nos interesa evaluar una consultoría sobre implementación / migración de JD Edwards..."></textarea>
+                </div>
+                <div class="d-flex flex-wrap gap-2">
+                  <button type="button" id="btnSendWhatsApp" class="btn btn-primary-hero flex-grow-1">
+                    <i class="fa-brands fa-whatsapp"></i> Enviar por WhatsApp
+                  </button>
+                  <button type="button" id="btnSendEmail" class="btn btn-secondary-hero flex-grow-1">
+                    <i class="fa-solid fa-envelope"></i> Enviar por Email
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer-custom">
+    <div class="container">
+      <div class="row gy-4 align-items-center justify-content-between">
+        <div class="col-md-5">
+          <div class="footer-brand-title">Pablo Martín Altera</div>
+          <p class="footer-brand-sub mb-0">
+            Tech Leader en Globant · Project Manager · Consultor JD Edwards EnterpriseOne.
+            Soluciones de alta criticidad en ERP y transformación digital en LATAM.
+          </p>
+        </div>
+
+        <div class="col-md-7 text-md-end">
+          <ul class="footer-nav-list justify-content-md-end mb-3">
+            <li><a href="#inicio" class="footer-nav-link">Inicio</a></li>
+            <li><a href="#sobre-mi" class="footer-nav-link">Sobre mí</a></li>
+            <li><a href="#destacado" class="footer-nav-link">Caso Mastellone</a></li>
+            <li><a href="#experiencia" class="footer-nav-link">Experiencia</a></li>
+            <li><a href="#habilidades" class="footer-nav-link">Habilidades</a></li>
+            <li><a href="#contacto" class="footer-nav-link">Contacto</a></li>
+          </ul>
+
+          <div class="d-flex gap-2 justify-content-md-end align-items-center">
+            <a href="https://www.linkedin.com/in/pablo-altera/" target="_blank" rel="noopener noreferrer"
+              class="nav-icon-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://wa.me/5491160127001" target="_blank" rel="noopener noreferrer" class="nav-icon-link"
+              aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="mailto:pabloaltera@gmail.com" class="nav-icon-link" aria-label="Email"><i
+                class="fa-solid fa-envelope"></i></a>
+            <a href="tel:+5491160127001" class="nav-icon-link" aria-label="Teléfono"><i
+                class="fa-solid fa-phone"></i></a>
+            <button onclick="window.print()" class="btn btn-outline-secondary btn-sm rounded-pill px-3 py-1 ms-2"
+              title="Guardar versión para imprimir">
+              <i class="fa-solid fa-print me-1"></i> Imprimir CV
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-row">
+        <span>© 2026 <strong>Pablo Martín Altera</strong>. Todos los derechos reservados.</span>
+        <span>Buenos Aires, Argentina · Proyectos Internacionales</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING TOAST NOTIFICATION -->
+  <div id="toastNotification" class="toast-custom" role="alert" aria-live="assertive" aria-atomic="true">
+    <i class="fa-solid fa-circle-check" style="color: var(--accent-primary);"></i>
+    <span id="toastMessage">Texto copiado al portapapeles</span>
+  </div>
+
+  <!-- BACK TO TOP BUTTON -->
+  <button id="backToTopBtn" class="btn-back-to-top" aria-label="Volver arriba" title="Subir al inicio">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- SCRIPTS -->
+  <!-- Bootstrap 5.3.3 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!-- Custom Main JS -->
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
